@@ -1,0 +1,25 @@
+header {
+    min-height: 100vh;
+    background: url("../../assets/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header .wrapper {
+    position: relative;
+    height: 100vh;
+}
+
+header .cta {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(25px);
+    border-radius: 20px 20px 0px 0px;
+    border-top: 4px solid #FFF;
+    border-right: 4px solid #FFF;
+    border-left: 4px solid #FFF;
+    padding: 50px 40px;
+}
