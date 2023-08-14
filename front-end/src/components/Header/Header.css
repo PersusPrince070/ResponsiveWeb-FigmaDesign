@@ -23,3 +23,37 @@ header .cta {
     border-left: 4px solid #FFF;
     padding: 50px 40px;
 }
+
+header .cta .course-name {
+    font-weight: 800;
+    font-size: 16px;
+    color: #FFF;
+    position: relative;
+}
+
+header .cta .course-name::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: var(--red-color);
+    left: 0;
+    bottom: -10px;
+}
+
+header .cta h1 {
+    font-family: "Alegreya";
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFF;
+    line-height: 140%;
+}
+
+header .cta .demo-btn {
+    padding: 10px 32px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 10px;
+    background: var(--red-color);
+    color: #FFF;
+}
