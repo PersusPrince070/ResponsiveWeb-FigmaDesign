@@ -1,59 +1,59 @@
 header {
-    min-height: 100vh;
-    background: url("../../assets/hero-image.jpg");
-    background-size: cover;
-    background-position: center;
+  min-height: 100vh;
+  background: url("../../assets/hero-image.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 header .wrapper {
-    position: relative;
-    height: 100vh;
+  position: relative;
+  height: 100vh;
 }
 
 header .cta {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 450px;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(25px);
-    border-radius: 20px 20px 0px 0px;
-    border-top: 4px solid #FFF;
-    border-right: 4px solid #FFF;
-    border-left: 4px solid #FFF;
-    padding: 50px 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 450px;
+  border-radius: 20px 20px 0px 0px;
+  border-width: 4px 4px 0px 4px;
+  border-style: solid;
+  border-color: #ffffff;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(25px);
+  padding: 50px 40px 60px 40px;
 }
 
 header .cta .course-name {
-    font-weight: 800;
-    font-size: 16px;
-    color: #FFF;
-    position: relative;
+  font-weight: 800;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
 }
 
 header .cta .course-name::after {
-    position: absolute;
-    content: "";
-    width: 60px;
-    height: 4px;
-    background: var(--red-color);
-    left: 0;
-    bottom: -10px;
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background: var(--red-color);
+  left: 0;
+  bottom: -10px;
 }
 
 header .cta h1 {
-    font-family: "Alegreya";
-    font-size: 40px;
-    font-weight: 700;
-    color: #FFF;
-    line-height: 140%;
+  color: #fff;
+  font-family: "Alegreya";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 140%;
 }
 
 header .cta .demo-btn {
-    padding: 10px 32px;
-    font-size: 16px;
-    font-weight: 800;
-    border-radius: 10px;
-    background: var(--red-color);
-    color: #FFF;
+  border-radius: 10px;
+  background-color: var(--red-color);
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 32px;
+  font-weight: 800;
 }

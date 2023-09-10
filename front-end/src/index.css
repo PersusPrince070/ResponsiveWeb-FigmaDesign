@@ -1,7 +1,7 @@
 :root {
     --dark-color: #181E1E;
     --red-color: #E63946;
-    --pink-clolor: #FF6864;
+    --pink-color: #FF6864;
     --yellow-color: #FFCA28;
 }
 
@@ -22,5 +22,5 @@ body {
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
 }

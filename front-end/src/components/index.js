@@ -5,4 +5,4 @@ import Blog from "./Blog/Blog";
 import Testimonials from "./Testimonials/Testimonials";
 import Footer from "./Footer/Footer";
 
-export { Header, Topics, Info, Blog, Testimonials, Footer };
+export { Header, Topics, Info, Blog, Testimonials,Footer };
