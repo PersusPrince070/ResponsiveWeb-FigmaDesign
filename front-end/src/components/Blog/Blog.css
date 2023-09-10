@@ -1,0 +1,63 @@
+#blog .content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+#blog .post img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+#blog .post {
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: all 400ms ease;
+}
+
+#blog .post:hover {
+  transform: scale(1.04);
+}
+
+#blog .post .tag {
+  position: absolute;
+  font-family: "Alegreya", serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  color: #000;
+  background: #fff;
+  right: 8px;
+  top: 8px;
+  border-radius: 10px;
+  padding: 0px 16px;
+}
+
+#blog .post .post-title {
+  color: #000;
+  font-family: "Alegreya", serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 24px;
+  margin: 0;
+}
+
+#blog .btn-container {
+  display: flex;
+  justify-content: right;
+}
+
+#blog .all-posts-btn {
+  color: #000;
+  font-family: "Alegreya", serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 4px 32px;
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 30px;
+}
