@@ -17,7 +17,7 @@ const Topics = () => {
       <div className="wrapper">
         <h2>What will you learn?</h2>
         <div className="content-container">
-          <ul>
+          <ul className="topics-list">
             <li onMouseEnter={() => setCurrentImage(frequencies)}>
               What are frequencies?
             </li>

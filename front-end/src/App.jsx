@@ -1,6 +1,5 @@
-import React from 'react';
+import React from "react";
 import { Header, Info, Topics, Blog, Testimonials, Footer } from "./components";
-
 
 const App = () => {
   return (
@@ -12,7 +11,8 @@ const App = () => {
       <Testimonials />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
+
