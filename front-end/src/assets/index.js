@@ -10,7 +10,7 @@ import frequencies from "./frequencies.png";
 import heroImage from "./hero-image.jpg";
 import instragramLogo from "./instragram-logo.svg";
 import mastering from "./mastering.png";
-import menuIcon from "./menu-icon.svg";
+// import menuIcon from "./menu-icon.svg";
 import mixingConsole from "./mixing-console.png";
 import mixing from "./mixing.png";
 import studentIcon from "./student-icon.png";
@@ -22,26 +22,26 @@ import videoIcon from "./video-icon.svg";
 import vocalsProcessing from "./vocals-processing.png";
 
 export {
-    bgElement1,
-    bgElement2,
-    blog1,
-    blog2,
-    blog3,
-    closeIcon,
-    daw,
-    facebookLogo,
-    frequencies,
-    heroImage,
-    instragramLogo,
-    mastering,
-    menuIcon,
-    mixingConsole,
-    mixing,
-    studentIcon,
-    testimonial1,
-    testimonial2,
-    testimonial3,
-    twitterLogo,
-    videoIcon,
-    vocalsProcessing,
+  bgElement1,
+  bgElement2,
+  blog1,
+  blog2,
+  blog3,
+  closeIcon,
+  daw,
+  facebookLogo,
+  frequencies,
+  heroImage,
+  instragramLogo,
+  mastering,
+  // menuIcon,
+  mixingConsole,
+  mixing,
+  studentIcon,
+  testimonial1,
+  testimonial2,
+  testimonial3,
+  twitterLogo,
+  videoIcon,
+  vocalsProcessing,
 };
