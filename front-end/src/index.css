@@ -66,3 +66,28 @@ section h2.light::after {
 section .content-container {
   display: flex;
 }
+
+/* Tablet Version */
+
+@media (max-width: 1040px) {
+  .wrapper {
+    max-width: 694px;
+  }
+}
+
+/* Smartphone version */
+
+@media (max-width: 720px) {
+  .wrapper {
+    padding: 0 32px;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  section h2::after {
+    width: 50px;
+    bottom: 0;
+  }
+}
