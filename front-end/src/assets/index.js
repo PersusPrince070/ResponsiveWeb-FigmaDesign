@@ -10,7 +10,7 @@ import frequencies from "./frequencies.png";
 import heroImage from "./hero-image.jpg";
 import instragramLogo from "./instragram-logo.svg";
 import mastering from "./mastering.png";
-// import menuIcon from "./menu-icon.svg";
+import menuIcon from "./menu-icon.svg";
 import mixingConsole from "./mixing-console.png";
 import mixing from "./mixing.png";
 import studentIcon from "./student-icon.png";
@@ -34,7 +34,7 @@ export {
   heroImage,
   instragramLogo,
   mastering,
-  // menuIcon,
+  menuIcon,
   mixingConsole,
   mixing,
   studentIcon,
